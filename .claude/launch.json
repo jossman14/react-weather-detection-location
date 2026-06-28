@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cra",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["node_modules/react-scripts/bin/react-scripts.js", "start"],
+      "port": 3000,
+      "env": {
+        "NODE_OPTIONS": "--openssl-legacy-provider",
+        "BROWSER": "none",
+        "CI": "true"
+      }
+    }
+  ]
+}
